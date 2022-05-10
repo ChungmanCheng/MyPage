@@ -4,7 +4,7 @@ import { Authenticator } from '@aws-amplify/ui-react'
 
 function App() {
   return (
-    <Authenticator>
+    <Authenticator div className="App">
       {({ signOut, user }) => (
         <div className="App">
           <p>
